@@ -1,0 +1,10 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color:lightgrey;
+    text-align:center;
+  }
+  input {
+    width:32px;
+    heigth:20px;
+  }
+  
