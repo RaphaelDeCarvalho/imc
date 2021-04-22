@@ -4,8 +4,8 @@ function formataimc(numero){
   }
   
   function calculaImc(){
-  peso= inputPeso.value
-  altura= inputAltura.value
+  peso= inputPeso.value.replace("," , ".")
+  altura= inputAltura.value.replace("," , ".")
   imc= peso/(altura*altura)
   if(!imc){classificacao="Nulo"}
   if(imc>=30){classificacao="Obesidade"}
