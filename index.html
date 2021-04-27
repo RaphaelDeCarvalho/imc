@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +12,19 @@
   <h1> IMC </h1>
     <p>Para sabermos do seu índice de massa corporal (IMC), digite abaixo os seguintes dados:</p>
     <p>
-    <label>Peso:</label>
-    <input id="inputPeso" type="number">Kg
+      <table>
+          <tr>
+    <td><label>Peso:</label></td>
+    <td><input id="inputPeso" type="number" placeholder="00,0">Kg</td>
+          </tr>
     </p>
     <p>
-    <label>Altura:</label>
-    <input id="inputAltura" type="number">M
-    </p>
+      <tr>
+    <td><label>Altura:</label></td>
+    <td><input id="inputAltura" type="number" placeholder="0,00">M</td>
+    </tr>
+    </table>
+  </p>
     <button id="botaoCalcular" onclick="calculaImc()">Calcular</button>
     <h2 id="resultado">Clique no botão para continuar</h2>
     <script src="script/script.js"></script>
